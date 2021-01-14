@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  color: #fff;
+  background-color: rgb(127, 156, 211);
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+td {
+  text-align: center;
+  padding: 7px;
+  border-bottom: 0.001px black double;
+}
+
+.btn-reset {
+  background-color: rgb(224, 113, 113);
+  color: white;
+  padding: 5px;
+  border: 0;
+  font-weight: 800;
+}
+
+img {
+  width: 130px;
+  margin-right: 10px;
+}
+
+.produit-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.fa-heart {
+  cursor: pointer;
+}
+
+.redLike {
+  color: red;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button1,
+.button-1 {
+  background-color: transparent;
+  width: 50px;
+  padding: 0 10px;
+  margin: 0 25px;
+  border: 0;
+  font-weight: 800;
+  font-size: 1.5rem;
+  border: 2px solid #000;
+}
+
+.quantity {
+  display: inline-block;
+  width: 15px;
+}
